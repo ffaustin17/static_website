@@ -16,10 +16,14 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>My Simple Vite + React App</h1>
       <div className="card">
+        <h2>Click on the counter button to increment it!</h2>
         <button onClick={() => setCount((count) => count + 1)}>
           counter is {count}
+        </button>
+        <button onClick={() => setCount(0)}>
+          reset counter
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
